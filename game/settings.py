@@ -27,3 +27,12 @@ class Settings:
         
         # Camera settings
         self.camera_lerp = 0.1  # camera smoothing factor
+
+        # Debug settings
+        self.debug_menu_visible = False
+        self.invincible = False
+        
+        # Game state
+        self.paused = False
+        self.game_over = False
+        self.game_won = False
